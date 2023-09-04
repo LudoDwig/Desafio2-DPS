@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
-}
+/* PizzaCalculator.css */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Titulo-Pizza{
+ font: size 500px;;
+  color: wheat;
+  font-family: 'Righteous', cursive;
+  -webkit-text-stroke: 2px black;
+  color: wheat; 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pagina-container {
+  background-image: url("https://wallup.net/wp-content/uploads/2017/11/22/371886-food-pizza.jpg");
+  padding-top: 70px;
+  padding-block: 50px;
+  border-style: dashed;
+  border-color: black;
+  border-width: 2px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.pagina-section {
+  padding-left: 20px;
+  flex: 1;
+  font-family: 'Fira Sans', sans-serif;
+  margin-right: 20px;
+  padding-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.factura-section {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 30px;
+  border-style: solid;
+  border-color: rgb(92, 5, 5);
+  border-radius: 5px 20px 5px;
+  background-color: #fdf3bc;
+  flex: 1;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+h1, h2 {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
 }
